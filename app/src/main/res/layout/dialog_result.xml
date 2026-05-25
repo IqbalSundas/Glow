@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="#F4F7F6">
+
+    <TextView
+        android:id="@+id/tvResultEmoji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🟡"
+        android:textSize="80sp" />
+
+    <TextView
+        android:id="@+id/tvResultState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FATIGUED"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tvResultTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Response time: 0.48s\n(Normal: 0.30-0.40s)"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textColor="#555555"
+        android:layout_marginTop="15dp" />
+
+    <!-- Smart Health Tip -->
+    <TextView
+        android:id="@+id/tvResultTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tip: Take a break."
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="#00838f"
+        android:background="#E0F7FA"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

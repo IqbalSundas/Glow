@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <!-- Emoji Indicator -->
+        <TextView
+            android:id="@+id/tvItemEmoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🟢"
+            android:textSize="32sp"
+            android:layout_marginEnd="16dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- State (Rested/Fatigued/Stressed) -->
+            <TextView
+                android:id="@+id/tvItemState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RESTED"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <!-- Date -->
+            <TextView
+                android:id="@+id/tvItemDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="May 14, 2026 - 10:30 AM"
+                android:textSize="14sp"
+                android:textColor="#666666"/>
+
+            <!-- Note -->
+            <TextView
+                android:id="@+id/tvItemNote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tap to add note..."
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:textColor="#999999"
+                android:layout_marginTop="4dp"/>
+
+            <!-- Activities Performed -->
+            <TextView
+                android:id="@+id/tvItemActivities"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="12sp"
+                android:textColor="#00838f"
+                android:layout_marginTop="2dp"/>
+
+        </LinearLayout>
+
+        <!-- Response Time -->
+        <TextView
+            android:id="@+id/tvItemResponseTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.35s"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#00838f"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

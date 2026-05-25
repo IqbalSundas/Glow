@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F7F6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📅 Check-In History"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#005662"
+        android:padding="16dp"
+        android:gravity="center"/>
+    <!-- Add this right below the 📅 Check-In History TextView -->
+    <Button
+        android:id="@+id/btnExportPDF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📄 Export History as PDF"
+        android:textAllCaps="false"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#00838f"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:padding="8dp"/>
+
+</LinearLayout>
