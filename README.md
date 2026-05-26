@@ -31,7 +31,6 @@ Screenshot 1.
 Screenshot 2.
 Screenshot 3.
 Screenshot 4<img width="720" height="1600" alt="Screenshot 4" src="https://github.com/user-attachments/assets/096963fd-4cb6-4ff7-a5a2-3b55964d8e0e" />
-<img width="720" height="1600" alt="Screenshot 3" src="https://github.com/user-attachments/assets/2838d88d-e5ab-40ce-95e2-40aac3a6598f" />
 <img width="720" height="1600" alt="Screenshot 2" src="https://github.com/user-attachments/assets/99220e6f-6500-42a8-ba56-292cbc603516" />
 <img width="720" height="1600" alt="Screenshot 1" src="https://github.com/user-attachments/assets/295dff2a-5baa-4858-9b8b-638b70f65225" />
 .
