@@ -1,40 +1,65 @@
-App Name: Glow
+📱 GLOW
+A privacy-first mental fatigue and stress detector that measures your cognitive state in 15 seconds using just your phone's camera.
 
-App Description (Short - 80 characters max):
-Measure mental fatigue in 15s using your phone camera. 100% Offline & Private.
+About the App
+Glow is a health-tech Android application designed for students, remote workers, and drivers. It solves the problem of latent mental fatigue by using smartphone pupillometry—measuring how fast your pupils react to light. It provides instant, objective results without requiring expensive wearables, long surveys, or internet connectivity. All data is stored 100% offline, ensuring absolute user privacy.
 
-App Description (Full):
-Glow is a privacy-first mental fatigue and stress detector that uses the science of pupillometry. By utilizing your smartphone's front camera and screen flash, Glow measures how fast your pupils react to light in a 15-second check-in. Slower reactions indicate mental fatigue or stress.
+App Screenshots
+Camera Scan	Result & Tip	Recommendations	History
+	Recommendations	History and pdf
+<img width="608" height="808" alt="Screenshot 1" src="https://github.com/user-attachments/assets/677f9c54-0af0-4a85-8944-9f3034a0f21a" />
+<img width="720" height="1600" alt="Screenshot 2" src="https://github.com/user-attachments/assets/e72d9aaf-4ca4-444a-b379-60216419dd75" />
+<img width="720" height="1600" alt="Screenshot 3" src="https://github.com/user-attachments/assets/bcd2f41b-68c2-4540-9147-a256e0d39c9f" />
+<img width="720" height="1600" alt="Screenshot 4" src="https://github.com/user-attachments/assets/062b2f11-2f5d-4583-91e9-cae461e8d7bb" />
 
-🌟 KEY FEATURES:
-• 15-Second Check-In: Measure your cognitive state instantly.
-• Science-Backed: Uses 40+ years of pupillometry research.
-• 100% Offline: No internet required. No accounts needed.
-• Privacy-First: NO images saved, NO data ever leaves your device.
-• AI Voice Assistant: Guides you through the scanning process.
-• Smart Recommendations: Get breathing exercises, stretches, and mental resets based on your state.
-• History & Notes: Track your fatigue over time and add private notes.
-• PDF Export: Generate a secure PDF report to share with your therapist or doctor.
 
-Glow proves that advanced health monitoring doesn't require expensive wearables or compromised privacy.
+Features
+15-Second Mental Fatigue Check-In
+AI Voice Assistant for guided scanning
+Smart Face Guide (Oval turns green when aligned)
+Science-backed Pupillometry Algorithm
+Color-coded Results (Rested, Fatigued, Stressed)
+Smart Health Recommendations & Activities
+Private Notes for check-ins
+History Calendar View
+PDF Export for medical sharing
+100% Offline & Privacy-First
+Technologies Used
+Kotlin
+Android Studio
+CameraX API
+Google ML Kit Face Detection
+Room Database (SQLite)
+MVVM Architecture
+TextToSpeech (AI Voice)
+XML / Material Design 3
 
-Category: Health & Fitness / Medical
+Download APK
+https://drive.google.com/file/d/195fG0Ou5zk_FhsPhbjnyiDx8iwqabC9Z/view?usp=drive_link
 
-Version Name / Version Code: 1.0.0 / 1
+How to Install the APK
+Download the APK file from the link above.
+Open the APK file on an Android mobile phone.
+Allow installation from unknown sources if required.
+Install and run the application.
+How to Run the Project
+Clone or download this project.
+Open the project in Android Studio.
+Sync Gradle files.
+Connect an Android device or start an emulator.
+Run the app.
 
-App Permissions Details:
-• android.permission.CAMERA: Required to access the front camera to track pupil size and reactions during the 15-second check-in. The camera feed is processed in real-time and NO video or images are ever saved.
-• android.permission.WRITE_EXTERNAL_STORAGE: Required to save the exported PDF history report to the device's Downloads folder (only used on Android 9 and below; modern Android versions use a secure cache that doesn't require this permission).
+Privacy Policy
+Already provided in docs folder
 
-Privacy Policy:
-Glow Privacy Policy
-Effective Date: May 2026
-
-Glow is built with a "Privacy-First" architecture. We do not collect, store, or transmit any personal data.
-
-Data Collection: The app uses the device camera to measure pupil reflex speeds. No visual data (photos or videos) are recorded or saved.
-Data Storage: All check-in history, notes, and calculated fatigue scores are stored locally on the device using Room Database. They are NEVER uploaded to any cloud server.
-Data Sharing: The only way data leaves the device is if the user explicitly clicks "Export PDF" and manually chooses to share the file via email or messaging apps.
-Internet: Glow operates 100% offline. No internet connection is required, and no background data is ever transmitted.
-
-The APK link: https://drive.google.com/file/d/195fG0Ou5zk_FhsPhbjnyiDx8iwqabC9Z/view?usp=drive_link
+Future Enhancements
+Personalized ML Baselines (Learn user's specific "normal" over time)
+Wearable Integration (Sync with smartwatches for HRV correlation)
+Android Digital Wellbeing Link (Suggest Focus Mode when fatigued)
+iOS Port
+Developed By
+Sundas Iqbal
+Class / Semester: BSITM-A-23-31 / 6th Semester
+Department: IT
+University: University of Layyah
+GitHub: [IqbalSundas](https://github.com/IqbalSundas/)
