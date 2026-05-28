@@ -50,7 +50,8 @@ Connect an Android device or start an emulator.
 Run the app.
 
 Privacy Policy
-Already provided in docs folder
+[privacy_policy.pdf](https://github.com/user-attachments/files/28365324/privacy_policy.pdf)
+
 
 Future Enhancements
 Personalized ML Baselines (Learn user's specific "normal" over time)
