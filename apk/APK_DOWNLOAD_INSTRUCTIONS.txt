@@ -1,0 +1,7 @@
+The official APK file for the Glow app exceeds GitHub's 25MB direct upload limit for web browsers.
+
+To download the working APK file, please use the secure Google Drive link provided in the main README.md file, or access it directly here:
+
+[INSERT YOUR GOOGLE DRIVE LINK HERE]
+
+Thank you!
