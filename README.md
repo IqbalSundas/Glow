@@ -22,19 +22,6 @@ Category: Health & Fitness / Medical
 
 Version Name / Version Code: 1.0.0 / 1
 
-App Icon:
-(Insert a picture of your app icon here. If you don't have one, go to canva.com, create a free teal logo with a glowing eye or phone, and screenshot it).
-
-App Screenshots:
-
-Screenshot 1.
-Screenshot 2.
-Screenshot 3.
-Screenshot 4<img width="720" height="1600" alt="Screenshot 4" src="https://github.com/user-attachments/assets/096963fd-4cb6-4ff7-a5a2-3b55964d8e0e" />
-<img width="720" height="1600" alt="Screenshot 2" src="https://github.com/user-attachments/assets/99220e6f-6500-42a8-ba56-292cbc603516" />
-<img width="720" height="1600" alt="Screenshot 1" src="https://github.com/user-attachments/assets/295dff2a-5baa-4858-9b8b-638b70f65225" />
-.
-
 App Permissions Details:
 • android.permission.CAMERA: Required to access the front camera to track pupil size and reactions during the 15-second check-in. The camera feed is processed in real-time and NO video or images are ever saved.
 • android.permission.WRITE_EXTERNAL_STORAGE: Required to save the exported PDF history report to the device's Downloads folder (only used on Android 9 and below; modern Android versions use a secure cache that doesn't require this permission).
@@ -49,3 +36,5 @@ Data Collection: The app uses the device camera to measure pupil reflex speeds. 
 Data Storage: All check-in history, notes, and calculated fatigue scores are stored locally on the device using Room Database. They are NEVER uploaded to any cloud server.
 Data Sharing: The only way data leaves the device is if the user explicitly clicks "Export PDF" and manually chooses to share the file via email or messaging apps.
 Internet: Glow operates 100% offline. No internet connection is required, and no background data is ever transmitted.
+
+The APK link: https://drive.google.com/file/d/195fG0Ou5zk_FhsPhbjnyiDx8iwqabC9Z/view?usp=drive_link
